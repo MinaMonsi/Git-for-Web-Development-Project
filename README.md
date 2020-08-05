@@ -6,11 +6,11 @@ This project consists of two parts:
 ## Task 1: Set up Project
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your TL as a collaborator Leslie
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
+- [x] Create your own version of this repo - Fork
+- [x] Add your TL as a collaborator Leslie
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
+  - [X] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
   - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
@@ -28,7 +28,7 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/M94mbzuHGQoMg6F3e/w9GqZYCQ2YoZZf).
 
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references. HI
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references. HIS
 
 ## Task 3: Stretch
 Stretch Review questions: 
