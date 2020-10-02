@@ -7,9 +7,13 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     3. What is an attribute and where do we put it? 
     Attributes provide additional information about elements. When adding an attribute to a tag, you place it in the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+    An h1 tag is used as the main heading in a document.  There are several h tags, indicating levels of importance, that divide the document into different sections.  An h1 tag is the most important tag and should only be used once.
     5. Name two tags that have required attributes
+    The image tag and the a tag have required attributes.
     6. What do we put in the head of our HTML document? 
-    7. What is an id? 
+    The head of an HTML document contains metadata.
+    7. What is an id?
+    Id's are added to elements and can be called anything.  An id allows you to select a specifc element in CSS. You must use a unique name for each id that is created for an element.
     8. What elements can I add an id to? 
     9. How many times can I use the same id on a page? 
     10. What is a class? 
