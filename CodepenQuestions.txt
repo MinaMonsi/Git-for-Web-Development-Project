@@ -65,6 +65,22 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     36. What is the command we would use to push our repo up to github?
      The command is git push -u origin branch-name.  Branch-name is whatever name you selected for the branch. 
     37. Walk me through Lambda's git flow. 
+        1. Clone your own version of the repo
+        2. Make sure my name is in front of the repo before I clone it
+        3. Add a collaborator on the forked repo
+        4. Clone the repo by copying the link in GitHub
+        5. Open the terminal and go to the directory where you want to clone your    
+           forked repo.
+        6. Use the git clone <link-to-repo> command
+        7. cd into the newly created repo by using the cd <repo-name> command
+        8. Use the gitcheckout -b "firstname-lastname" command
+        9. Work on assignment.  Commit often when making changes.
+        10. Use git add . to make the repo changes ready for commiting.
+        11. Use git commit -m "Meaningful message" to commit changes.  The commit message should explain changes made to the repo
+        12. git push -u origin branch-name to push all of your commits from your local 
+            machine up onto github
+        13. Submit a pull request and make sure that the you are on your forked repo. The base repository should have your name on it.
+        14. Add your collaborator and submit the pullrequest.
 
 Stretch Questions
 
