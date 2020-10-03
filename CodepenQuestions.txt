@@ -63,13 +63,26 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         You select the element by using .human followed by {} curly brackets containing the values and properties for the selector.  
 
     22. What is a parent child selector? When would this be useful? 
-        The parent  child selector selects all elements that are a direct child of the specified element.
+        The parent child selector selects all elements that are a direct child of the specified element. This is usful to target the parent and child elements al at once.
+
     23. How do you select all links within a div with the class of sidebar?
+        You select the the links by doing the following:
+        .sidebar-div a:link, .sidebar-div a:visited {} and insert the properties and values inside the curly brackets.
+
     24. What is a pseudo selector?
+        A pseudo selector specifies a special state of a selected element. For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
     25. What do we use the change the spacing between lines?
+        You use the line-height property.
+
     26. What do we use to change the spacing between letters?
+        You use the letter spacing property.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        You use the text-transform property with the value of uppercase, lowercase, or capitalize to transform the text with the desired value.
+
     28. How do I add a 1px border around my div that is dotted and black?
+        You target the div and inside the curly brackets you set the width and height properties for your border.  You then use the border property and use the values of  1px dotted black to create a dotted black border around the div.
 
     29. How do I select everything on the page? 
         You use * to select everything on a page.
