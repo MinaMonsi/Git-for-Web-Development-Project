@@ -2,53 +2,75 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     1. What is Semantic HTML? 
        Semantic Html clearly describes its meaning.  Some examples include <header>, <footer>, <nav>, and <section>.
+
     2. What is HTML used for? 
        HTML is markup language used to display documents in a browser.
+
     3. What is an attribute and where do we put it? 
        Attributes provide additional information about elements. When adding an attribute to a tag, you place it in the opening tag.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
        An h1 tag is used as the main heading in a document.  There are several h tags, indicating levels of importance, that divide the document into different sections.  An h1 tag is the most important tag and should only be used once.
+
     5. Name two tags that have required attributes
        The image tag and the a tag have required attributes.
+
     6. What do we put in the head of our HTML document? 
        The head of an HTML document contains metadata.
+
     7. What is an id?
        Id's are titles that can be added to elements.  An id allows you to select a specifc element in CSS. You must use a unique name for each id that is created for an element.
+
     8. What elements can I add an id to? 
        I can add an id to any element.
+
     9. How many times can I use the same id on a page? 
        You can only use the id once.
+
     10. What is a class? 
         A class is similar to and id.  However, the title for a class can be used for several elements.
+
     11. What elements can I add a class to?
-        You can add a class to multiple elements. 
+        You can add a class to multiple elements.
+
     12. How many times can I use the same class on a page? 
         You can use it several times.
+
     13. How do I get my link to open in a new tab?
         You use an a tag with an href.  I'm not sure what your're asking. I would like more clarity with this question.
+
     14. What is the alt attribute in the image tag used for? 
         It is used for accessibility.  It provides a text discription of the image when the image cannot be viewed by the user or if the image cannot be displayed.
+
     15. How do I reference an id?
         You use a # to refence an id.
+
     16. What is the difference between a section and a div?
         A secton groups content according to theme and a div doesn't. A div element has no special meaning at all.
+
     17. What is CSS used for? 
         CSS is used for styling.
+
     18. How to we select an element? Example - every h2 on the page
         If it doesn't have a class or an id, you can just list h2 followed by curly brackets {} to hold values and properties for the selector.
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    19. What is the difference between a class and an id? - Give me an example of when  I might use each one
         
     20. How do we select classes in CSS?
         You use a . for selecting a class.
+
     21. How do we select a p element with a single class of “human””?
         You select the element by using .human followed by {} curly brackets containing the values and properties for the selector.  
+
     22. What is a parent child selector? When would this be useful? 
+        The parent  child selector selects all elements that are a direct child of the specified element.
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     28. How do I add a 1px border around my div that is dotted and black?
+
     29. How do I select everything on the page? 
         You use * to select everything on a page.
     30. How do I write a comment in CSS?
