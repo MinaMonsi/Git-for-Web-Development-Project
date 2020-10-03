@@ -1,0 +1,129 @@
+Codepen Link: https://codepen.io/mina-monsi/pen/PoNrQBV
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+       Semantic Html clearly describes its meaning.  Some examples include <header>, <footer>, <nav>, and <section>.
+
+    2. What is HTML used for? 
+       HTML is markup language used to display documents in a browser.
+
+    3. What is an attribute and where do we put it? 
+       Attributes provide additional information about elements. When adding an attribute to a tag, you place it in the opening tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+       An h1 tag is used as the main heading in a document.  There are several h tags, indicating levels of importance, that divide the document into different sections.  An h1 tag is the most important tag and should only be used once.
+
+    5. Name two tags that have required attributes
+       The image tag and the a tag have required attributes.
+
+    6. What do we put in the head of our HTML document? 
+       The head of an HTML document contains metadata.
+
+    7. What is an id?
+       Id's are titles that can be added to elements.  An id allows you to select a specifc element in CSS. You must use a unique name for each id that is created for an element.
+
+    8. What elements can I add an id to? 
+       I can add an id to any element.
+
+    9. How many times can I use the same id on a page? 
+       You can only use the id once.
+
+    10. What is a class? 
+        A class is similar to and id.  However, the title for a class can be used for several elements.
+
+    11. What elements can I add a class to?
+        You can add a class to multiple elements.
+
+    12. How many times can I use the same class on a page? 
+        You can use it several times.
+
+    13. How do I get my link to open in a new tab?
+        You use an a tag with an href.  I'm not sure what your're asking. I would like more clarity with this question.
+
+    14. What is the alt attribute in the image tag used for? 
+        It is used for accessibility.  It provides a text discription of the image when the image cannot be viewed by the user or if the image cannot be displayed.
+
+    15. How do I reference an id?
+        You use a # to refence an id.
+
+    16. What is the difference between a section and a div?
+        A secton groups content according to theme and a div doesn't. A div element has no special meaning at all.
+
+    17. What is CSS used for? 
+        CSS is used for styling.
+
+    18. How to we select an element? Example - every h2 on the page
+        If it doesn't have a class or an id, you can just list h2 followed by curly brackets {} to hold values and properties for the selector.
+
+    19. What is the difference between a class and an id? - Give me an example of when  I might use each one
+        
+    20. How do we select classes in CSS?
+        You use a . for selecting a class.
+
+    21. How do we select a p element with a single class of “human””?
+        You select the element by using .human followed by {} curly brackets containing the values and properties for the selector.  
+
+    22. What is a parent child selector? When would this be useful? 
+        The parent child selector selects all elements that are a direct child of the specified element. This is usful to target the parent and child elements al at once.
+
+    23. How do you select all links within a div with the class of sidebar?
+        You select the the links by doing the following:
+        .sidebar-div a:link, .sidebar-div a:visited {} and insert the properties and values inside the curly brackets.
+
+    24. What is a pseudo selector?
+        A pseudo selector specifies a special state of a selected element. For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+    25. What do we use the change the spacing between lines?
+        You use the line-height property.
+
+    26. What do we use to change the spacing between letters?
+        You use the letter spacing property.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        You use the text-transform property with the value of uppercase, lowercase, or capitalize to transform the text with the desired value.
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        You target the div and inside the curly brackets you set the width and height properties for your border.  You then use the border property and use the values of  1px dotted black to create a dotted black border around the div.
+
+    29. How do I select everything on the page? 
+        You use * to select everything on a page.
+    30. How do I write a comment in CSS?
+        You use /* at the begining of the comment and */ at the end of the comment.
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder? 
+        You type ls to list the files/folders
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+     You use the rm ~r command.  
+    34. Why should I use version control? 
+        Version control is important for keeping track of the revisions made by a team.  It tracks every change made to the source code without defiling the original code.  In other words, version control protects the original code and at the same time allowing developers to work with it and make changes to it.
+    35. How often should I commit to github?
+        Commit often.
+    36. What is the command we would use to push our repo up to github?
+     The command is git push -u origin branch-name.  Branch-name is whatever name you selected for the branch. 
+    37. Walk me through Lambda's git flow. 
+        1. Clone your own version of the repo
+        2. Make sure my name is in front of the repo before I clone it
+        3. Add a collaborator on the forked repo
+        4. Clone the repo by copying the link in GitHub
+        5. Open the terminal and go to the directory where you want to clone your    
+           forked repo.
+        6. Use the git clone <link-to-repo> command
+        7. cd into the newly created repo by using the cd <repo-name> command
+        8. Use the gitcheckout -b "firstname-lastname" command
+        9. Work on assignment.  Commit often when making changes.
+        10. Use git add . to make the repo changes ready for commiting.
+        11. Use git commit -m "Meaningful message" to commit changes.  The commit message should explain changes made to the repo
+        12. git push -u origin branch-name to push all of your commits from your local 
+            machine up onto github
+        13. Submit a pull request and make sure that the you are on your forked repo. The base repository should have your name on it.
+        14. Add your collaborator and submit the pullrequest.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
